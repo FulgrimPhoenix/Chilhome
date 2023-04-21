@@ -1,0 +1,7 @@
+/*блок выпадаюжего меню*/
+.menu {
+  position: absolute;
+  left: 25px;
+  top: 30px;
+  z-index: 3;
+}

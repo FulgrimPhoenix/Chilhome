@@ -1,0 +1,9 @@
+@import url(../blocks/root/root.css);
+@import url(../fonts/fonts.css);
+
+/*Секция заголовков*/
+@import url(../blocks/section-title/section-title.css);
+
+/*Секция header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);

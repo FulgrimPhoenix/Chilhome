@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+    background-color: #fff;   
+    }
+    
+    :root {    
+        --color-trans: rgb(255, 0, 234);
+        --color-base1: #bad6d6;
+        --color-base2: #e2e8e8;
+        --color-base3: #b4d3d3;
+        --color-subTitle: #b4d3d3;
+        --color-text: #6b6a6a;
+    }
+    
+    .Page {
+        margin: 0;
+        width: 100%;
+        height: 750px;
+        position: relative;
+    }
+    .Page1 {
+        margin: 0;
+        width: 100%;
+        height: 682px;
+        position: relative;
+    }
+
+    .Page11 {
+      margin: 0;
+      width: 100%;
+      height: 300px;
+      position: relative;
+  }
+
+    .Title1 {
+        position: absolute;
+        font-size: 19px;
+        font-family: Play;
+        font-weight: 500;
+        margin: 30px auto;
+        max-width: 15%;
+        height: 100px;
+        color: #000;
+        text-align: justify;
+        text-transform: uppercase;
+        right: 42%;   
+    }
+
+    .head {
+        position: absolute;
+        font-family: Play;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 3% auto 15px;
+        height: 50px;
+        width: 100%;
+        color: #000;
+    }
+
+    .head1 {
+      position: absolute;
+      font-family: Play;
+      font-size: 36px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 3% auto 15px;
+      height: 50px;
+      width: 100%;
+      color: #000;
+      top: -90px;
+  }
+
+    /*Заголовки*/
+    h1 {
+        
+        text-align: left;
+        font-family: Roboto Slab;
+        font-weight: 400;
+        font-size: 42px;
+        width: 90%;
+        margin: 20px;
+        position: relative;
+    }
+
+    h2 {
+        
+        text-align: left;
+        font-family: Nunito;
+        font-weight: 800;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    h3 {
+      font-family: Play;
+      font-weight: 800;
+      font-size: 16px;
+      width: 90%;
+      transition: .7s;
+      right: 35px;
+      position: absolute;
+      text-align: center;
+      color: #000000;
+      opacity: 0;
+      bottom: -50px;
+    }
+
+    h4 {
+      font-family: Play;
+      font-weight: 500;
+      font-size: 16px;
+      width: 90%;
+      margin-top: 10px;
+      right: 35px;
+      position: absolute;
+      text-align: center;
+      color: #000000;
+      opacity: 0;
+      bottom: -30px;
+      transition: .7s;
+    }
+
+    h5 {
+      font-family: Play;
+      font-weight: 500;
+      font-size: 16px;
+      width: 90%;
+      margin-top: 100px;
+      margin-left: 10px;
+      position: relative;
+      text-align: center;
+      color: #fff;
+      opacity: 0;
+    }
+
+    h6{
+        font-family: Nunito;
+        font-weight: 400;
+        font-size: 16px;
+        width: 90%;
+        margin: 20px;
+        position: relative;
+        text-align: justify;
+        color: var(--color-text);
+    }
+
+    /*параграфы*/
+    p {
+        font-family: Nunito;
+        font-weight: 400;
+        font-size: 16px;
+        width: 88%;
+        margin: 20px;
+        position: relative;
+        text-align: justify;
+        color: var(--color-text);
+        padding-left: 15px;
+    }
+
+    /*блок ссылок на соц сети*/
+    .logo {
+        position: absolute;
+        left: 20px;
+        top: 100px;
+        display: grid;
+        height: 20%;    
+    }
+
+    .soc {   
+        position: relative;
+        width: 30px;
+        height: 30px;
+        transition: .2s linear;
+    }
+    
+    .soc:hover {transform: scale(1.2);}
+    /*линии на меню*/
+    .line1 {
+        position: absolute;
+        border-right: 2px solid #000;
+        height: 20%;
+        bottom: 15%;
+        left: 55px;
+        width: 2px;   
+    }
+    .line2 {   
+        position: absolute;
+        border-right: 2px solid #000;
+        height: 10%;
+        bottom: 45%;
+        left: 55px;
+        width: 2px;   
+    }
+    .line3 {
+
+        position: absolute;
+        border-top: 2px solid #000;
+        
+        
+        left: 13%;
+        top: 30%;
+        min-width: 10%;
+        height: 2px;
+    
+    }
+    .line4 {   
+        position: absolute;
+        border-right: 2px solid #000;
+        height: 10%;
+        bottom: 45%;
+        right: 90px;
+        width: 2px; 
+    }
+    .line5 {
+        position: absolute;
+        border-right: 2px solid #000;
+        height: 20%;
+        bottom: 15%;
+        right: 90px;
+        width: 2px;   
+    }
+    .line6 {
+        position: absolute;
+        border-top: 2px solid #000;
+        left: 45%;
+        top: 15%;
+        width: 10%;
+        height: 2px;
+        align-items: center;
+    }
+    .line7 {
+      position: absolute;
+      border-top: 2px solid #000;
+      left: 45%;
+      top: 7%;
+      width: 10%;
+      height: 2px;
+      align-items: center;
+  }
+
+    /*кавычки*/
+    .kav {
+        position: absolute;
+        top: 20%;
+        right: 15%;
+    }
+
+    .kav1 {
+        position: absolute;
+        top: 46%;
+        left: 23%;
+    }
+
+    /*кнопки навигации слева вверху*/
+    .mainnav {
+        position: absolute;
+        top: 30px;
+        left: 80px;
+        display: flex;
+        max-width: 30%;
+        font-family: Play;
+        font-size: 17px;        
+    }
+    
+    .mainnavbottom {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .mainnavbottom:hover{    
+        color: var(--color-trans);   
+    }
+
+    /*блок выпадаюжего меню*/
+    .menu {
+        position: absolute;
+        left: 25px;
+        top: 30px;
+        z-index: 9999;
+        transition: .2s linear;
+        transform: scale(1.1)
+    }
+
+    /* Кнопка выпадающего списка */
+    .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 35px;
+    top: -5px;
+    z-index: 9999;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: var(--color-base3)}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}
+
+  /*основной тектовый блок*/
+  .container {
+    width: 48%;
+    background-color: var(--color-base1);
+    margin-top: 10px;
+    height: 69%;
+    left: 35%;
+    top: 30%;
+    position: absolute;
+  }
+
+  .container1 {
+    width: 48%;
+    background-color: var(--color-base1);
+    height: 59%;
+    left: 35%;
+    top: 0;
+    position: absolute;
+  }
+
+  .container11 {
+    width: 48%;
+    background-color: var(--color-base1);
+    margin-top: 10px;
+    height: 70%;
+    left: 35%;
+    top: 10%;
+    position: absolute;
+  }
+
+  .container2 {
+    width: 55%;
+    /*background-color: var(--color-base1);*/
+    height: 40%;
+    right: 35%;
+    top: 65%;
+    position: absolute;
+  }
+
+  .info {
+    width: 15%;
+    background-color: var(--color-base2);
+    height: 15%;
+    right: 17%;
+    top: 67%;
+    position: absolute;
+    transition: 0.2s linear;
+    text-align: justify;
+  }
+
+  
+  .info:hover {transform: scale(1.2); border-radius: 15px;}
+
+  .info1 {
+    width: 15%;
+    background-color: var(--color-base2);
+    height: 6%;
+    right: 17%;
+    top: 87%;
+    position: absolute;
+    transition: 0.2s linear;
+    text-align: justify;
+    padding-top: 20px;
+  }
+
+  .info1:hover {transform: scale(1.2); border-radius: 15px;}
+
+  .info11 {
+    width: 100%;
+    background-color: var(--color-base2);
+    height: 40%;
+    left: 17%;
+    top: 20%;
+    position: relative;
+    transition: 0.2s linear;
+    text-align: center;
+    padding-top: 7px;
+  }
+  .info11:hover {transform: scale(1.2); border-radius: 15px;}
+
+  .refer{
+    top: 4%;
+    left: 8%;
+    height: 100%;
+    position: absolute;
+    display: grid;
+    width: 20%;
+  }
+
+  .doc {
+        font-family: Nunito;
+        font-weight: 800;
+        font-size: 16px;
+        width: 88%;
+        margin: 20px;
+        position: relative;
+        text-align: justify;
+        color: #000;
+        padding-left: 5px;
+        text-decoration: none;
+        margin-top: 30%;
+        
+  }
+
+  
+  /*главная картинка на странице*/
+  .mainpic {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    transition: 2s;
+
+    background: 
+    url(../Image/Survice1/pic1_022.png) center
+    no-repeat;
+    background-size: cover;
+  }
+
+
+/*картинки специалистов*/
+  .family {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    left: 12%;
+    top:20%;
+    display: flex;
+    z-index: 99;
+  }
+
+  .block {
+    position: relative;
+    margin: 100px;
+    height: 55%;
+    width: 16%;
+    transform: scale(1.2);
+  }
+
+  .photo{
+    position: absolute;
+    width: 149px;
+    height: 224px;
+    z-index: 101;
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .2s linear;
+    box-sizing: border-box;
+  }
+
+  img {position: absolute;top: 0;}
+
+  .photo:hover {opacity: 1; transform: translate3d(-10px, -10px, 0);}
+  .photo:hover img {opacity: 0.15;}
+  .photo:hover h5 {opacity: 1;}
+  .block:hover h4 {opacity: 1;}
+  .block:hover h3 {opacity: 1;}
+
+  .sub {
+    position: absolute;
+    height: 224px;
+    width: 149px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: var(--color-base3);
+    z-index: 1;
+  }
+
+  .pad {width: 100%; height: 90%; position: absolute;top: 0;}
+
+  /*декорации страницы спецов*/
+ 
+  .dec1 {z-index: 1; width: 100%; height: 5%; right: 0; top: 20%; position: absolute;opacity: .5; background-color: var(--color-base1);}
+
+  .dec2 {z-index: 1; width: 100%; height: 5%; left: 0; bottom: 10%; position: absolute;opacity: .5; background-color: var(--color-base1);}

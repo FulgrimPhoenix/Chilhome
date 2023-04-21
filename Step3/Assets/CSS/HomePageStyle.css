@@ -1,0 +1,1054 @@
+body {
+margin: 0;
+background-color: #fff;
+
+
+}
+
+:root {
+
+    --color-trans: rgb(255, 0, 234);
+    --color-base1: #bad6d6;
+    --color-base2: #e2e8e8;
+    --color-base3: #b4d3d3;
+    --color-subTitle: #b4d3d3;
+}
+
+.Page {
+    margin: 0;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.Pagee {
+    margin: 0;
+      width: 100%;
+      box-sizing: content-box;
+      position: relative;
+}
+
+.logo {
+
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    display: grid;
+    height: 20%;
+
+}
+
+.soc {
+
+    width: 30px;
+    height: 30px;
+    transition: .2s linear;
+}
+
+.soc:hover {transform: scale(1.2);}
+
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+
+
+.menu {
+
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    z-index: 9999;
+    transition: .2s linear;
+}
+
+
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 35px;
+    top: -5px;
+    z-index: 9999;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: var(--color-base3)}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}
+
+.mainnav {
+
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    display: flex;
+    max-width: 30%;
+
+}
+
+.mainnavbottom {
+
+    font-family: Play;
+    font-size: 17px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.mainnavbottom:hover{
+
+    color: var(--color-trans);
+
+}
+
+.slide1 {
+
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 65%;
+    background-color: var(--color-base1);
+    z-index: 1;
+
+}
+.slide2 {
+
+    position: absolute;
+    margin: 0;
+    top: 24%;
+    left: 18%;
+    width: 57%;
+    height: 68%;
+    background-color: var(--color-base2);
+    z-index: 2;
+}
+
+.Photo {
+
+    
+    box-sizing: border-box;
+    width: 94%;
+    height: 90%;
+    margin: 22px auto;
+    background:
+    url(../Image/Photo/Home_03.jpg) center
+    no-repeat;
+    background-size: cover;
+    z-index: 3;
+
+}
+
+.slide3 {
+
+    position: absolute;
+    margin: 0;
+    bottom: 2%;
+    left: 9%;
+    width: 20%;
+    height: 10%;
+    background-color: var(--color-base1);
+    z-index: 1;
+}
+
+.Title1 {
+
+    position: absolute;
+    font-size: 19px;
+    font-family: Play;
+    font-weight: 500px;
+    margin: 30px auto;
+    max-width: 15%;
+    height: 100px;
+    color: #000;
+    text-align: justify;
+    text-transform: uppercase;
+    right: 42%;
+
+}
+
+.Title2 {
+
+    position: absolute;
+    font-size: 32px;
+    font-family: Roboto Slab;
+    font-weight: 500px;
+    margin: 0;
+    max-width: 32%;
+    padding: 1%;
+    height: 150px;
+    color: #000;
+    text-align: justify;
+    text-transform: uppercase;
+    left: 12%;
+    top: 50%;
+    z-index: 3;
+    background-color: var(--color-subTitle);
+
+}
+
+.line1 {
+
+    position: absolute;
+    border-right: 2px solid #000;
+    height: 20%;
+    bottom: 15%;
+    left: 55px;
+    width: 2px;
+
+
+}
+
+.line2 {
+
+    position: absolute;
+    border-right: 2px solid #000;
+    height: 10%;
+    bottom: 45%;
+    left: 55px;
+    width: 2px;
+
+
+}
+
+.line3 {
+
+    position: absolute;
+    border-top: 2px solid #000;
+    
+    
+    right: 100px;
+    bottom: 15%;
+    width: 10%;
+    height: 2px;
+
+}
+
+/*страница 2*/
+
+.head {
+
+    position: relative;
+    font-family: Play;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3% auto 15px;
+    height: 50px;
+    width: 100%;
+    color: #000;
+
+}
+
+.line4 {
+    position: relative;
+    border-top: 2px solid #000;
+    margin: 15px auto;
+    width: 10%;
+    height: 2px;
+    align-items: center;
+}
+
+.Pagee .line4 {
+    position: relative;
+    border-top: 2px solid #000;
+    margin: 15px auto;
+    width: 10%;
+    height: 2px;
+    align-items: center;
+}
+.slide4 {
+
+    position: absolute;
+    margin: 0;
+    top: 25%;
+    right: 40%;
+    width: 50%;
+    height: 65%;
+    background-color: var(--color-base1);
+    z-index: 1;
+
+}
+
+.slide5 {
+
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 29%;
+    height: 65%;
+    background-color: var(--color-base2);
+    z-index: 1;
+}
+
+.PhotoAI{
+
+    
+    margin: 7% 7%;
+    width: 86%;
+    height: 86%;
+    background-color: var(--color-base2);
+    z-index: 2;
+    box-sizing: border-box;
+    transition: .5s;
+
+    background: 
+    url(../Image/Photo/AI.jpg) center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.PhotoAI:hover {transform: scale(1.05);}
+    /*ссылка карточки*/
+    .fr{
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+    }
+
+.text {
+
+    box-sizing: content-box;
+}
+
+/*3 страница*/
+
+.container {
+
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    box-sizing: border-box;
+    left: 5%;
+    top: 30%; 
+    background-color: var(--color-base1);
+    
+
+}
+
+.supp{
+    position: absolute;
+    width: 96%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 2%;
+    top: 5%;
+    background-color: var(--color-subTitle);
+
+}
+
+.S1 {
+
+    position: absolute;
+    width: 16%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 2%;
+    top: 5%;
+    z-index: 5;
+    transition: transform 0.1s linear;
+
+    background: 
+    url(../Image/Photo/Vopilovaaa_03.jpg) center
+    no-repeat;
+    background-size: cover;
+
+}
+.SS {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    transition: transform 0.1s linear;
+    background-color: #000;
+    opacity: 0;
+    z-index: 4;
+
+}
+
+.S2 {
+
+    position: absolute;
+    width: 16%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 18%;
+    top: 5%;
+    transition: transform 0.15s linear;
+    z-index: 5;    
+
+    background: 
+    url(../Image/Photo/Chumov_03.jpg) center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.S3 {
+
+    position: absolute;
+    width: 16%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 34%;
+    top: 5%;
+    transition: transform 0.15s linear;
+    z-index: 5;
+
+    background: 
+    url(../Image/Photo/Yulia.jpg) center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.S4 {
+
+    position: absolute;
+    width: 16%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 50%;
+    top: 5%;
+    transition: transform 0.15s linear;
+    z-index: 5;
+
+    background: 
+    url(../Image/Photo/Port_03.jpg) center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.S5 {
+
+    position: absolute;
+    width: 16%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 66%;
+    top: 5%;
+    transition: transform 0.15s linear;
+
+    background: 
+    url(../Image/Photo/Vasiliev_03.jpg) center
+    no-repeat;
+    background-size: cover;
+    z-index: 5;
+
+}
+
+.S6 {
+
+    position: absolute;
+    width: 16%;
+    height: 90%;
+    box-sizing: border-box;
+    left: 82%;
+    top: 5%;
+    transition: transform 0.15s linear;
+    z-index: 5;
+    
+
+    background: 
+    url(../Image/Photo/Mineilova_03.jpg) center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.S1:hover{ opacity: 1; transform: translate3d(-10px, -10px, 0); }
+.S1:hover .surve1{opacity: 1;}
+.S1:hover .SS{opacity: .85;}
+.S2:hover{ opacity: 1; transform: translate3d(-10px, -10px, 0); }
+.S2:hover .surve{opacity: 1;}
+.S2:hover .SS{opacity: .85;}
+.S3:hover{ opacity: 1; transform: translate3d(-10px, -10px, 0); }
+.S3:hover .surve{opacity: 1;}
+.S3:hover .SS{opacity: .85;}
+.S4:hover{ opacity: 1; transform: translate3d(-10px, -10px, 0); }
+.S4:hover .surve2{opacity: 1;}
+.S4:hover .SS{opacity: .85;}
+.S5:hover{ opacity: 1; transform: translate3d(-10px, -10px, 0); }
+.S5:hover .surve{opacity: 1;}
+.S5:hover .SS{opacity: .85;}
+.S6:hover{ opacity: 1; transform: translate3d(-10px, -10px, 0); }
+.S6:hover .surve{opacity: 1;}
+.S6:hover .SS{opacity: .85;}
+
+.surve{
+    position: absolute;
+    margin: 0 auto;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 160px;
+    width: 98%;
+    height: 60%;
+    opacity: 0;
+    text-decoration: none;
+    font-family: Play;
+    text-align: center;
+    
+    z-index: 6;
+}
+.surve1{
+    position: absolute;
+    margin: 0 auto;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 120px;
+    width: 98%;
+    height: 60%;
+    opacity: 0;
+    text-decoration: none;
+    font-family: Play;
+    text-align: center;
+    
+    z-index: 6;
+}
+
+.surve2{
+    position: absolute;
+    margin: 0 auto;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 80px;
+    width: 98%;
+    height: 60%;
+    opacity: 0;
+    text-decoration: none;
+    font-family: Play;
+    text-align: center;
+    
+    z-index: 6;
+}
+
+.block {
+
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 15%;
+    margin: 30px auto 0;
+   /* background-color: var(--color-base2);*/
+}
+
+.newsline {
+
+    display: flex;
+    height: 20%;
+    width: 100%;
+    
+    
+}
+
+.news {
+    margin-right: 5%;
+    width: 30%;
+    height: 100%;
+   /* background-color: var(--color-base3);*/
+    display: flex;
+    transition: .2s linear;
+
+}
+
+.news:hover { transform: scale(1.1);}
+
+.newref{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    text-align: left;
+    color: #000;
+    margin: 0;
+   
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+h5 {
+
+    margin: 0;
+    transition: .15s linear;
+    opacity: 1;
+}
+
+h5:hover {
+
+color: var(--color-trans);
+
+}
+
+
+
+h6{
+
+    font-family: Play;
+    font-size: 15px;
+    text-align: left;
+    color: #77777e;
+    position: absolute;
+    margin-bottom: 0px;
+    bottom: 0;
+    left: 0;
+
+}
+
+/* фото в новостной ленте*/
+.content1 {
+
+    width: 30%;
+    height: 100%;
+    z-index: 7;
+    margin-right: 5%;
+    border: 5px solid var(--color-base2);
+    box-sizing: border-box;
+    background: url(../Image/Photo/Content1_03.jpg) left no-repeat; background-size: cover;
+}
+
+.content2 {
+
+    width: 30%;
+    height: 100%;
+    z-index: 7;
+    margin-right: 5%;
+    border: 5px solid var(--color-base2);
+    box-sizing: border-box;
+    background: url(../Image/Photo/Content_02.jpg) left no-repeat; background-size: cover;
+
+}
+
+.content3 {
+
+    width: 30%;
+    height: 100%;
+    z-index: 7;
+    margin-right: 5%;
+    border: 5px solid var(--color-base2);
+    box-sizing: border-box;
+    background: url(../Image/Photo/Content3_03.jpg) left no-repeat; background-size: cover;
+
+}
+
+/*-----*/
+
+.textcontent {
+
+    margin: 0;
+    width: 65%;
+    height: 100%;
+    display: grid;
+    z-index: 7;
+    box-sizing: border-box;
+    position: relative;
+}
+.newss {
+    
+    width: 30%;
+    height: 100%;
+    /*background-color: var(--color-base3);*/
+    display: flex;
+    transition: 0.15s linear;
+
+}
+
+.newss:hover { transform: scale(1.1);}
+
+.subblock1 {
+
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 75%;
+    width: 65%;
+    display: grid;
+    transition: .2s linear;
+    background-color: #77777e;
+
+}
+
+.subblock2 {
+
+    position: absolute;
+    top: 25%;
+    right: 0;
+    height: 35%;
+    width: 30%;
+    display: grid;
+    transition: .2s linear;
+    
+
+}
+
+.subblock3 {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 35%;
+    width: 30%;
+    display: grid;
+    transition: .2s linear;
+    
+
+}
+
+.subblock1:hover { transform: scale(1.05);}
+.subblock2:hover { transform: scale(1.1);}
+.subblock3:hover { transform: scale(1.1);}
+
+.textcontent1 {
+
+    
+    width: 100%;
+    height: 20%;
+    display: grid;
+    z-index: 7;
+    box-sizing: border-box;
+    position: absolute;
+   
+    bottom: 0;
+    
+
+}
+
+.textcontent2 {
+
+    
+    width: 100%;
+    height: 25%;
+    display: grid;
+    z-index: 7;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 5px;  
+    bottom: 0;
+    
+
+}
+
+.subtextcontent1 {
+    width: 100%;
+    height: 20%;
+    z-index: 6;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.pic {
+
+    background-color: aqua;
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 0;
+
+    background: url(../Image/Photo/Job_03.jpg) center no-repeat; background-size: cover;
+}
+
+.pic1 {
+
+    background-color: aqua;
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 0;
+
+    background: url(../Image/Photo/jesti-7.jpg) center no-repeat; background-size: cover;
+}
+
+.subtextcontent2 {
+    width: 100%;
+    height: 25%;
+    z-index: 6;
+    box-sizing: border-box;
+    position: absolute;
+   
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.hello{
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-left: 15px;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.hello1{
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding-left: 5px;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.newref1 {
+
+    height: 100%;
+    width: 100%;
+
+    background: url(../Image/Photo/child-is-drawing-by-colored-pencil_141172-4140.webp) center no-repeat; background-size: cover;
+
+}
+
+h4 {
+
+    font-family: Play;
+    font-size: 15px;
+    text-align: left;
+    color: #a9a9b2;
+    position: absolute;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    bottom: 0;
+    left: 0;
+
+}
+
+h3 {
+
+    font-family: Play;
+    font-size: 15px;
+    text-align: left;
+    color: #77777e;
+    position: absolute;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    bottom: 0;
+    left: 0;
+
+}
+
+   /*СТРАНИЦА СПЕЦИАЛИСТОВ*/
+  /*картинки специалистов*/
+  .family {
+    position: relative;
+    width: 90%;
+    box-sizing: content-box;
+    margin: 0px auto 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 32px;
+    grid-auto-flow: dense;
+    z-index: 99;
+  }
+  .blockk {
+    margin: 100px auto 50px;
+    position: relative;
+    height: 350px;
+    width: 60%;
+    transform: scale(1.2);
+    display: grid;
+    grid-template-rows: 65% 13% 10% 12%;
+
+  }
+
+     /*Заголовки*/
+    .Pagee h1 {
+        
+        text-align: left;
+        font-family: Roboto Slab;
+        font-weight: 400;
+        font-size: 42px;
+        width: 90%;
+        margin: 20px;
+        position: relative;
+    }
+    
+    .Pagee h2 {
+        
+        text-align: justify;
+        font-family: Nunito;
+        font-weight: 800;
+        font-size: 16px;
+        width: 90%;
+        margin: 0;
+        margin-left: 20px;
+        
+        position: relative;
+        line-height: 2;
+    }
+    
+    .Pagee h3 {
+      font-family: Play;
+      font-weight: 800;
+      font-size: 16px;
+      width: 90%;
+      transition: .7s;
+      right: 0px;
+      position: relative;
+      text-align: center;
+      color: #000000;
+      opacity: 0;
+      margin: 0 auto;
+    }
+    
+    .Pagee h4 {
+      font-family: Play;
+      font-weight: 500;
+      font-size: 16px;
+      width: 90%;
+      margin-top: 0px;
+      right: 0px;
+      position: relative;
+      text-align: center;
+      color: #000000;
+      opacity: 0;
+      transition: .7s;
+      margin: 0 auto;
+    }
+    
+    .Pagee h5 {
+      font-family: Play;
+      font-weight: 500;
+      font-size: 16px;
+      width: 90%;
+      display: flex;
+      padding-top: 60%;
+      padding-left: 6%;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+      opacity: 0;
+      z-index: 100;
+    }
+    
+    .Pagee h6{
+        font-family: Nunito;
+        font-weight: 400;
+        font-size: 16px;
+        width: 90%;
+        margin: 10px;
+        padding-left: 15px;
+        position: relative;
+        text-align: justify;
+        color: var(--color-text);
+        line-height: 2;
+    }
+
+  .photoo{
+    position: relative;
+    margin: 0 auto;
+    width: 72.5%;
+    height: 224px;
+    z-index: 101;
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .2s linear;
+    box-sizing: border-box;
+  }
+
+.photoo:hover {opacity: 1; transform: translate3d(-10px, -10px, 0);}
+  .photoo:hover img {opacity: 0.15;}
+  .photoo:hover h5 {opacity: 1;}
+  .blockk:hover h4 {opacity: 1;}
+  .blockk:hover h3 {opacity: 1;}
+
+  .subb {
+    position: absolute;
+    height: 224px;
+    width: 72.5%;
+    left: 14%;
+    top: 0px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: var(--color-base3);
+    z-index: 1;
+  }
+
+  .ph{
+    position: relative;
+    width: 120%;
+    height: 100%;
+    background-size: contain;
+  }
+
+  .unknown{
+    width: 120%;
+    margin: 0 auto;
+    left: -15px;
+  }
+  .phm{
+    left: -15px;
+  }
+
+  p {
+
+    margin: 0;
+    margin-bottom: 0px;
+    font-family: Nunito;
+        font-size: 17px;
+        text-align: justify;
+        color: #000;
+        padding:15px 30px 0;
+    
+    }
+

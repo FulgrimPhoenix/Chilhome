@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: #fff;   
+  }
+  
+:root {    
+    --color-trans: rgb(255, 0, 234);
+    --color-base1: #bad6d6;
+    --color-base2: #e2e8e8;
+    --color-base3: #b4d3d3;
+    --color-subTitle: #b4d3d3;
+    --color-text: #6b6a6a;
+}
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Nunito', sans-serif;
+}
