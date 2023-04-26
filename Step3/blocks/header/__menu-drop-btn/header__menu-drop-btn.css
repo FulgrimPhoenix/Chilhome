@@ -1,0 +1,17 @@
+.header__menu-drop-btn {
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+  }
+
+  .header__menu-drop-btn:hover + .header__menu-pic{
+    transform: scale(1.5);
+  }

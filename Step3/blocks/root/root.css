@@ -22,3 +22,7 @@ body {
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Nunito', sans-serif;
 }
+
+.show {
+  display:block;
+}

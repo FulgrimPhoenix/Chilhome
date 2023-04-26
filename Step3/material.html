@@ -13,26 +13,27 @@
 </head>
 <body class="page">
   <header class="header">
-    <!--Заголовок страницы-->
+    <div class="header__triangle rotation"></div>
     <h2 class="section-title">Материально-техническое обеспечение</h2>
-           <!--блок выпадающего меню-->
-           <div class="header__menu">
-               <img class="header__menu-pic" src="./">
-               <button onclick="myFunction()" class="dropbtn"></button>
-                   <div id="myDropdown" class="dropdown-content">
-                   <a href="D:/Childhome/Step3/HomePage.html">Главная</a>
-                   <a href="#">Службы</a>
-                   <a href="#">Новости</a>
-                   <a href="D:/Childhome/Step3/Contact_us.html">Контакты</a>
-                   <a href="D:/Childhome/Step3/Friends.html">Наши партнёры</a>
-                   </div>
-           </div>
-           <!--блок быстрой навигации слева вверху-->
+    <!--блок выпадающего меню-->
+    <div class="header__menu">
+      <img class="header__menu-pic" src="./images/Logo/Menu.png">
+      <button onclick="myFunction()" class="header__menu-drop-btn">
+      </button>
+        <div id="menu-links" class="header__menu-links">
+          <a href="D:/Childhome/Step3/HomePage.html" class="header__menu-link">Главная</a>
+          <a href="#" class="header__menu-link">Службы</a>
+          <a href="#" class="header__menu-link">Новости</a>
+          <a href="./Contact_us.html" class="header__menu-link">Контакты</a>
+          <a href="./Friends.html" class="header__menu-link">Наши партнёры</a>
+        </div>
+    </div>
+           <!--блок быстрой навигации слева вверху
            <div class="mainnav">
                <a class="mainnavbottom" href="#">Новости</a>
                <a class="mainnavbottom" href="D:/Childhome/Step3/Contact_us.html">Контакты</a>
            </div>
-           <!--блок ссылок на соц сети-->
+           блок ссылок на соц сети-->
            <div class="logo">
                <a class="soc" href="https://vk.com/semejnyj_centr_pushkinskij" target="_blank">
                    <img src="Image/Logo/VK.png">
